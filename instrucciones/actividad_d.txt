@@ -1,0 +1,17 @@
+Usa las herramientas MCP de memory y filesystem.
+1) Con filesystem, lee datos/calificaciones.csv y salida/reporte.md.
+2) Con memory, crea en el grafo de conocimiento:
+   - una entidad de tipo "grupo" llamada "Grupo_Practica1" con la
+     observacion del promedio del grupo;
+   - una entidad de tipo "alumno" por cada alumno (nombre con guion
+     bajo, por ejemplo "Ana_Torres"), con observaciones de su
+     matricula, su promedio final y si aprueba o no;
+   - una relacion "pertenece_a" de cada alumno hacia Grupo_Practica1.
+3) Con memory, usa search_nodes para buscar "No aprueba" y dime
+   que alumnos aparecen.
+4) Con memory, usa open_nodes para recuperar a Carla_Mendez y a
+   Gabriela_Luna y dime por que estan empatadas.
+5) Con memory, llama a read_graph y dime cuantas entidades y
+   cuantas relaciones hay en total.
+No uses herramientas que no sean de estos dos servidores MCP.
+Responde con un resumen breve de cada paso.
